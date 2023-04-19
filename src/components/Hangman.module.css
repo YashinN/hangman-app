@@ -1,0 +1,14 @@
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoContainer {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.btnHelp {
+  margin-top: 1rem;
+}

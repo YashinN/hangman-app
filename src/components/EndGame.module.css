@@ -1,0 +1,27 @@
+.endGameContainer {
+  position: fixed;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  width: 400px;
+  background-color: #1b1034;
+  border-radius: 2rem;
+  box-shadow: rgba(114, 80, 192, 0.876) 0px 10px 55px, #7150c0 0px -12px 30px,
+    #7150c0 0px 4px 6px, #7150c0 0px 12px 13px, #7150c0 0px -3px 5px;
+}
+
+.backdropContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: #1e0b48ad;
+}
