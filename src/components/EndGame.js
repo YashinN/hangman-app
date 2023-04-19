@@ -3,7 +3,9 @@ import "bootswatch/dist/vapor/bootstrap.min.css";
 import classes from "./EndGame.module.css";
 
 const EndGame = (props) => {
+  // checks if play agian button is pressed.
   const playAgainHandler = () => {
+    // calls reset handler from App.js to restet states.
     props.onReset();
   };
 

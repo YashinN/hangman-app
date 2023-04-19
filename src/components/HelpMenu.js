@@ -1,12 +1,13 @@
-import React, { useState } from "react";
 import "bootswatch/dist/vapor/bootstrap.min.css";
 import classes from "./HelpMenu.module.css";
 
+// Component displays rules of the game.
 const HelpMenu = (props) => {
   return (
     <div
       className={`${classes.backdrop} ${classes.active}`}
       onClick={props.offHelp}
+      id="close"
     >
       <div className={`container ${classes.menuContainer}`}>
         <div
@@ -17,8 +18,11 @@ const HelpMenu = (props) => {
             type="button"
             className={classes.btnClose}
             onClick={props.offHelp}
+            id="close"
           >
-            <span className="material-symbols-outlined">close</span>
+            <span id="close" className="material-symbols-outlined">
+              close
+            </span>
           </button>
         </div>
 
