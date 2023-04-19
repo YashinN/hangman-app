@@ -19,7 +19,8 @@ You may also see any lint errors in the console.
 
 ## How the game works
 
-a random word will be generated and diplayed as blamks
+a random word will be generated and diplayed as blamks.  
+
 safafasf
 asdasdad
 
