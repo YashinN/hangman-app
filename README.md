@@ -3,7 +3,7 @@
 ### `Description`
 
 The application is the notorious hangman game beginner project , it allows the user to play hangman online with a simple to use interface.
-The project forms part of an assignment from hyperion dev web development bootcamp.
+The project forms part of an assignment from Hyperion Dev web development bootcamp.
 
 ## Installation
 
